@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>movie dashboard</title>
+</head>
+<link href="https://fonts.google.com/specimen/Baloo+Bhaina+2?query=baloo+bhai"rel="baloo bhai">
+ <link rel="stylesheet" href="css/style.css">
+ <style>
+     body{
+         font-family:'baloo bhai',cursive;
+         margin:0px;
+         padding:0px;
+     }
+     .background-image {
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: block;
+  background-image: url('ad.jpg');
+  width: 1800px;
+  height:1200px;
+  -webkit-filter: blur(2px);
+  -moz-filter: blur(2px);
+  -o-filter: blur(2px);
+  -ms-filter: blur(2px);
+  filter: blur(2px);
+}
+     .left{
+        display:inline-block;
+        position:absolute;
+        left:34px;
+        top:0px;
+        padding:0px;
+
+     }
+     .mid{
+         display:block;
+         width:50%;
+         margin:5px auto;
+     }
+     .right{
+         position:absolute;
+         right:34px;
+         top:20px;
+         display:inline-block;
+     }
+     .navbar{
+         display:inline-block;
+     }
+     .navbar li{
+         display:inline-block;
+         font-size:25px;
+     }
+     .navbar li a{
+         color:black;
+         text-decoration:none;
+         padding:50px 20px;
+     }
+     .navbar li a:hover{
+     text-decoration:underline;
+     color:blue;
+     }
+     .btn{
+        font-family:'baloo bhai',cursive;
+         background-color:orangered;
+         color:white;
+         margin:0px 4px;
+         padding:4px 14px;
+         border-radius:14px;
+         font-size:20px;
+         cursor:pointer;
+     }
+     .botn{
+        font-family:'baloo bhai',cursive;
+         background-color:grey;
+         color:black;
+         margin:0px 4px;
+         padding:4px 14px;
+         border-radius:14px;
+         font-size:20px;
+         cursor:pointer;
+     }
+     .bootn{
+        font-family:'baloo bhai',cursive;
+         background-color:white;
+         color:black;
+         margin:0px 4px;
+         padding:4px 14px;
+         border-radius:14px;
+         font-size:20px;
+         cursor:pointer;
+     }
+     .btn:hover{
+         color:blue;
+     }
+     .botn:hover{
+         color:blue;
+     }
+     .bootn:hover{
+         color:blue;
+     }
+     .container{
+         margin:60px 600px;
+         color:white;
+     }
+ </style>
+<body>
+    <header class="header">
+    <div class="left">
+            <button class="bootn">menu</button>
+            <h1>MOVIESMAST</h1>
+    </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">log in</a></li>
+                <li><a href="#">sign up</a></li>
+                <li>
+                    <div class="mid">
+                        <button class="botn">search</button>
+                     </div>
+                </li>
+                <tr>
+                    <td>....</td>
+                    <td><input type='search' name='t' required/></td>
+                    </tr>
+                 </ul>
+        </div>
+        <div class="right">
+           <button class="btn">contact us</button>
+           <button class="btn">call us</button>
+        </div>
+        <div class="background-image"></div>
+        </div> 
+    </header>
+</body>
+</html>
